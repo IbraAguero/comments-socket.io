@@ -18,7 +18,7 @@ io.on("connection", (socket) => {
     console.log("Cliente desconectado");
   });
 });
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 10000;
 
 server.listen(PORT, (err) => {
   if (err) throw err;
